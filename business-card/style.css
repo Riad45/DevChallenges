@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+
+body{
+    background-color: #F2F5F9;
+
+    padding: 120px 0;
+    
+}
+
+.container{
+
+    align-content: center;
+
+    background-color: #FFFFFF;
+
+    margin: 0 auto; /* Center the container */
+    max-width: 40%;
+
+    border-radius: 15px;
+    overflow: hidden;
+   
+
+
+}
+.header{
+    position: relative;
+}
+
+.cover-pic{
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+.cover-pic-style{
+
+    
+    width: 100%;
+    height: auto;
+    position: absolute; /* Use absolute positioning */
+    bottom: 0; /* Align with the bottom of the cover-pic */
+    left: 0; /* Align to the left */
+    z-index: 2;
+}
+
+
+.content{
+    padding: 10% 10%;
+    font-family: 'Lato'  ;
+    line-height: 1.5;
+}
+
+.heading{
+    color: #111729;
+    margin-bottom: 10px;
+}
+
+.description{
+    color: #677489;
+}
+
+.vertical-line{
+
+    border: 1px solid #F2F5F9;
+}
+
+.footer{
+    padding: 10% 10%;
+    font-family: 'Lato'  ;
+
+    display: flex;
+    gap: 20px;
+
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+    border: 5px solid #F2F5F9;
+    border-radius: 50%;
+}
+
+.footer > ul{
+    list-style: none;
+}
+
+.footer  ul  li:first-child {
+
+    color: #111729;
+    font-size: 1.5rem;
+    font-weight:600;
+    
+}
+
+.footer > ul li:nth-child(2){
+    color: #677489;
+
+}
+
+
+@media screen and (max-width:640px) {
+
+    .container{
+        max-width: 75%;
+    }
+    
+}
